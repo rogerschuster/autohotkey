@@ -4,28 +4,28 @@
 
 
 #IfWinActive ahk_exe firefox.exe
-F1::Send !{left} ; Eine Seite zurück
-F2::Send !{right} ; Eine Seite vorwärts
+F1::Send !{left} ; Eine Seite zurÃ¼ck
+F2::Send !{right} ; Eine Seite vorwÃ¤rts
 F3::Send {end} ; Seitenende
 F4::Send {home} ; Seitenanfang
 F6::Send ^{t} ; neuer Tab
-F7::Send ^{w} ; Tab schließen
+F7::Send ^{w} ; Tab schlieÃŸen
 F8::Send ^{f} ; Suchen
-!g::Send {U+00A0} ; geschütztes Leerzeichen
-!m::Send {U+00A0}m ; geschütztes Leerzeichen + m
-!h::Send {U+00A0}m{U+00A0}ü.{U+00A0}NN ; Meter über Normalnull
+!g::Send {U+00A0} ; geschÃ¼tztes Leerzeichen
+!m::Send {U+00A0}m ; geschÃ¼tztes Leerzeichen + m
+!h::Send {U+00A0}m{U+00A0}{U+00FC}.{U+00A0}NN ; Meter Ã¼ber Normalnull
 
 #IfWinActive ahk_exe brave.exe
-F1::Send !{left} ; Eine Seite zurück
-F2::Send !{right} ; Eine Seite vorwärts
+F1::Send !{left} ; Eine Seite zurÃ¼ck
+F2::Send !{right} ; Eine Seite vorwÃ¤rts
 F3::Send {end} ; Seitenende
 F4::Send {home} ; Seitenanfang
 F6::Send ^{t} ; neuer Tab
-F7::Send ^{w} ; Tab schließen
+F7::Send ^{w} ; Tab schlieÃŸen
 F8::Send ^{f} ; Suchen
-!g::Send {U+00A0} ; geschütztes Leerzeichen
-!m::Send {U+00A0}m ; geschütztes Leerzeichen + m
-!h::Send {U+00A0}m{U+00A0}ü.{U+00A0}NN ; Meter über Normalnull
+!g::Send {U+00A0} ; geschÃ¼tztes Leerzeichen
+!m::Send {U+00A0}m ; geschÃ¼tztes Leerzeichen + m
+!h::Send {U+00A0}m{U+00A0}{U+00FC}.{U+00A0}NN ; Meter Ã¼ber Normalnull
 
 ;#IfWinActive ahk_exe soffice.bin
 ;#l::Send {HAllo}
