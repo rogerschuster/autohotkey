@@ -4,14 +4,15 @@ Capslock::Shift
 SetNumLockState, AlwaysOn
 
 #IfWinActive ahk_exe brave.exe
-Numpad0::Send {home} ; Seitenanfang
-Numpad1::Send {end} ; Seitenende
-Numpad2::Send ^{t} ; neuer Tab
-Numpad3::Send ^{w} ; Tab schließen
-;Numpad4::Send ^{t} ; neuer Tab
-;Numpad5::Send ^{w} ; Tab schließen
+Numpad0::Send ^{t} ; new tab
+Numpad1::Send ^{w} ; close tab
+Numpad2::Send {end} ; page end
+Numpad3::Send !{right} ; forward
+Numpad4::Send !{left} ; backward
+Numpad5::Send {home} ; page top
 Numpad6::Send !{left} ; Eine Seite zurück
 Numpad7::Send !{right} ; Eine Seite vorwärts
+
 
 #IfWinActive ahk_exe DxO.PhotoLab.exe
 Numpad0::Send ^{f1} ; Fotothek
