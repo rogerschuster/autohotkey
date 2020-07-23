@@ -34,6 +34,9 @@ Numpad3::Send ^{f5} ; neu laden
 Numpad4::Send ^{t} ; neuer Tab
 Numpad5::Send ^{w} ; Tab schließen
 Numpad6::Send ^{f} ; Suchen
+!g::Send {U+00A0} ; geschütztes Leerzeichen
+!m::Send {U+00A0}m ; geschütztes Leerzeichen + m
+!h::Send {U+00A0}m{U+00A0}{U+00FC}.{U+00A0}NN ; Meter über Normalnull
 
 #IfWinActive ahk_exe brave.exe
 Numpad0::Send !{left} ; Eine Seite zurück
@@ -44,6 +47,9 @@ Numpad3::Send ^{f5} ; neu laden
 Numpad4::Send ^{t} ; neuer Tab
 Numpad5::Send ^{w} ; Tab schließen
 Numpad6::Send ^{f} ; Suchen
+!g::Send {U+00A0} ; geschütztes Leerzeichen
+!m::Send {U+00A0}m ; geschütztes Leerzeichen + m
+!h::Send {U+00A0}m{U+00A0}{U+00FC}.{U+00A0}NN ; Meter über Normalnull
 
 #IfWinActive ahk_exe vivaldi.exe
 Numpad0::Send !{left} ; Eine Seite zurück
