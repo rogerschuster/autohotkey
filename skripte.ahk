@@ -1,5 +1,5 @@
 SetCapsLockState, AlwaysOff
-Capslock::Shift
+;Capslock::Shift
 
 ;+PgUp::Send {Volume_Up} ; lauter
 ;+PgDn::Send {Volume_Down} ; leiser
