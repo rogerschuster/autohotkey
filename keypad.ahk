@@ -1,5 +1,4 @@
-SetCapsLockState, AlwaysOff
-Capslock::Shift 
+; Turns numeric keypad into macro pad
 
 SetNumLockState, AlwaysOn
 
