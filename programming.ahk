@@ -1,4 +1,4 @@
-; Moving programming keys to the left half of the keyboard.
+; Moving keys important to programmers to the left half of the keyboard.
 ; Important for programmers working on a keyboard with ISO-de layout (aka QWERTZ).
 RAlt & 1::Send {{}
 RAlt & 2::Send {[}
