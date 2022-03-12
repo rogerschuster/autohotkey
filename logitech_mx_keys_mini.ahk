@@ -11,5 +11,6 @@
 ; I use the following lines to permanently swap between Volume Up and
 ; Insert:
 ; 
+#MaxHotkeysPerInterval 200
 Volume_Up::INS
 INS::Volume_Up
